@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .navbar {
+        font-family: "Bagel Fat One", cursive;
+        background-color: #000000;
+      }
+      .login {
+        border-style: groove;
+        border-radius: 8px;
+        border-color: rgb(198, 148, 187);
+        background-color: #c1f8ff45;
+      }
+      body {
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to bottom right, #bcff51, #b5b8ff);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        font-family: "Nunito", sans-serif;
+      }
+      .logout {
+        background-color: #00b6ad;
+        border-color: #016d64;
+      }
+      .logoutbtn {
+        margin-right: 10px;
+      }
+      .loginbtn {
+        background-color: #5b5eb5;
+        border-color: #5b5eb5;
+      }
+      h4 {
+        font-family: "Bagel Fat One", cursive;
+      }
+    </style>
+    <title>Log In</title>
+  </head>
+  <body>
+    <div class="navbar navbar-expand-sm navbar-default navbar-dark">
+      <div class="navbar-header container-fluid justify-content-center">
+        <a class="navbar-brand" href="index.html">CINESKY</a>
+        <button
+          type="button"
+          class="navbar-toggle collapse"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+          aria-expanded="false"
+          aria-controls="navbar"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse logoutbtn">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a
+              href="index.html"
+              class="btn btn-success btn-outline-light logout"
+              id="logout"
+              style="display: none; white-space: nowrap"
+              >Log Out</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="container col-sm-5 justify-content-center login">
+      <form>
+        <br />
+        <div class="mb-3 justify-content-center">
+          <a
+            class="navbar-link active justify-content-center"
+            href="index.html"
+          >
+            <img
+              src="https://lh3.googleusercontent.com/EtxdC-D3LEToiuH5A_Ti-KPDNRxtWhME15wE2cg9nfCRfgCfsKH_IfqV95L9f_V-2595YJOP57gr3W-BtCLXOtBdZvtfsPD5mwsKlzcu_hbt-gFATKb7EZ38cQrFMCTd1fWg5ctQWBh5cqrh2OmDgbcf6zs4vTIbHyKp7LPNxWJ49sK9Sdd9a6jGKuBHb08BckZ7mCKO36GTRfcZpf-9njNscVCzT4Ld8w_98g18djm_OXureYjxsQW7-hlOAJ94qc64uwFju7ubC66lKrUQfPLfh4xNwbeKfUSy9RW_amQviInW728Pv2usjBKOLD2IGfp9xUKRqHUU5Zyu163aw18JnoNsMlDY_-7QSK5oLMHfgAIVKCf04nGtYwPORnTCF10tJgcP2pbEZUZCDisDLfRDc43wfs9DhVjCZk5qvJkT2j2bpG2qMLuicTVs37ZWfNvxhvhpU-JmvpAuaRdcFOjcPj71i_0SdHRg52vot94FpP8oIGL-KGZzGOvIk1OpHrpLPdjT6uLL-hNSuSAKmJOTUJHWKvsFBtx1llHRyvMFk-NbnmwV8OaMjnN9ikVe8lSMgDEpxc8VaqBtKyw0FUVdC7YAXs3Pw0dk2kOZqTYZnox4WYyJs9aVi4BEPZnmu23bOWxmRC_M_BjCOEllzc2sGenklmtDbjr0mFzU85RDK1ZyHUJJBsUrNLqf5wczutMFtrN_3P0_uTuYvmJg_zSxGiQ_vxLs6UwwQ_d_uE8U0PhFBLrGFDoPPRiAQpCGvhDQ5_rooQB2DGa1qsViLIxARN3kJvQ9Jvb9Pk05CJl3-l9sWaKYq4hT-ZG67z-fimUcVPtc2OHS4h-xnh8FywpAAoaCmxR_bmMnk2XWqzkQUng96VLtewV2BLPBIl8BtW6Nh_jdPR3s-x5JPg4CtQNHOZYgtZsjwPeJDjVMmD8J=w625-h625-s-no?authuser=0"
+              alt="HUEKARTS"
+              style="width: 60px"
+              class="rounded-pill mx-auto d-block"
+            />
+          </a>
+        </div>
+        <h4 class="justify-content-center d-flex">LOG IN</h4>
+        <div class="mb-3">
+          <label for="Usernamelabel" class="form-label"><b>Email:</b></label>
+          <input type="text" class="form-control" id="email" />
+        </div>
+        <div class="mb-3">
+          <label for="Psswrd" class="form-label"><b>Password:</b></label>
+          <input type="password" class="form-control" id="password" />
+        </div>
+      </form>
+      <button
+        type="button"
+        class="btn btn-primary btn-outline-light w-100 mb-3 loginbtn"
+        id="login"
+      >
+        Log In
+      </button>
+      <p class="mt-2 pt-1 mb-3">
+        Don't Have An Account?
+        <a href="index.html" class="link-primary">Register</a>
+      </p>
+    </div>
+  </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+    import {
+      getAuth,
+      createUserWithEmailAndPassword,
+      signInWithEmailAndPassword,
+      signOut,
+    } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCQLHy9U2IOCVRMMHzKPbrggCYdvi4dvhs",
+      authDomain: "rama-emailauth.firebaseapp.com",
+      databaseURL: "https://rama-emailauth-default-rtdb.firebaseio.com",
+      projectId: "rama-emailauth",
+      storageBucket: "rama-emailauth.appspot.com",
+      messagingSenderId: "284035252675",
+      appId: "1:284035252675:web:aa6358e25fa8e0e483bd76",
+      measurementId: "G-CQEWPNGHGY",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth();
+
+    //console.log(app);
+
+    //---Log in code start---
+    document.getElementById("login").addEventListener("click", function () {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          //Signed-in
+          const user = userCredential.user;
+          console.log(user);
+          alert(user.email + " Log In Successfully!");
+          document.getElementById("logout").style.display = "block";
+          window.location.href = "html/insertproducts.html";
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          console.log(errorMessage);
+          alert(errorMessage);
+        });
+    });
+  </script>
+</html>
